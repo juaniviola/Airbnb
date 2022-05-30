@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2% 5%;
+}
+
+@media screen and (max-width: 650px) {
+  .header {
+    flex-direction: column;
+
+    img {
+      align-self: flex-start;
+    }
+  }
+}
